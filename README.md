@@ -1,18 +1,27 @@
-# File Sorter
+#  File Sorter
 
-A simple Python tool that automatically organizes files in a folder by moving them into neatly labeled sub-folders — such as Documents, Images, Videos, Audio, Archives, and Others.
+A simple Python tool that automatically organizes files into folders such as Documents, Images, Videos, Audio, Archives, and Others.
 
-Perfect for cleaning messy Downloads, Desktop, or any directory in seconds.
+This project helped me practice Python automation and build something useful for daily life.
 
-## Features
-- Automatically detects file types by extension
-- Creates folders if they don’t already exist
-- Can be reused for any folder
-- Keeps your system organized and clutter-free
-- Beginner-friendly Python project
+---
 
-## How It Works
-The script scans the selected folder and moves files into categorized folders such as:
+##  Why I Built This
+Downloads and Desktop folders quickly become messy.  
+I built this tool so files automatically move into correct folders without manual work.
+
+---
+
+##  Features
+- Automatically detects file types
+- Creates folders if they don't exist
+- Works on any folder
+- Beginner-friendly, clean Python code
+
+---
+
+##  How It Works
+The script reads each file, identifies its extension, and moves it into a matching folder:
 
 Documents  
 Images  
@@ -21,38 +30,60 @@ Audio
 Archives  
 Others
 
-You can easily modify categories or add new file types.
+---
 
-## Requirements
-- Python 3.8+
+##  Requirements
+- Python 3.8 or higher
 
-To check your Python version:
+Check version:
 
 python --version
 
-## Installation
-Clone the repository:
+---
 
-git clone https://github.com/Sushma-Anumalla/File.Sorter.git
+##  How to Run
 
-Go inside the project:
-
-cd File.Sorter
-
-## Usage
-Run the script:
+1️ Download or clone this repository  
+2️ Open the folder in terminal  
+3️ Run:
 
 python file_sorter.py
 
-(Optional) If your script supports folder path input:
+(Optional)
 
 python file_sorter.py "C:\Users\YourName\Downloads"
 
-## Contributing
-Pull requests and suggestions are welcome.
+---
 
-## License
-You can add an MIT license later if you want to make it open source.
+##  Example
 
-## Acknowledgements
-Created to practice Python automation and file management.
+Before:
+
+photo.jpg  
+song.mp3  
+report.pdf  
+
+After:
+
+Images/photo.jpg  
+Audio/song.mp3  
+Documents/report.pdf  
+
+---
+
+##  What I Learned
+- File handling in Python
+- OS / path modules
+- Writing reusable functions
+- Organizing a project professionally
+
+---
+
+##  Contributions
+Suggestions and improvements are welcome.
+
+---
+
+##  License
+Open-source — MIT License recommended.
+
