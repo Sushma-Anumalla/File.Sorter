@@ -1,89 +1,63 @@
 #  File Sorter
 
-A simple Python tool that automatically organizes files into folders such as Documents, Images, Videos, Audio, Archives, and Others.
+A simple Python tool that automatically organizes files in a folder by moving them into categorized sub-folders such as Documents, Images, Videos, Audio, Archives, and Others.
 
-This project helped me practice Python automation and build something useful for daily life.
-
----
+This project keeps messy folders (like Downloads or Desktop) clean and organized and helped me practice Python automation.
 
 ##  Why I Built This
-Downloads and Desktop folders quickly become messy.  
-I built this tool so files automatically move into correct folders without manual work.
-
----
+Folders quickly become messy when we download many files. I built this project to automatically organize files, save time, and practice file handling concepts in Python.
 
 ##  Features
-- Automatically detects file types
-- Creates folders if they don't exist
-- Works on any folder
-- Beginner-friendly, clean Python code
-
----
-
-##  How It Works
-The script reads each file, identifies its extension, and moves it into a matching folder:
-
-Documents  
-Images  
-Videos  
-Audio  
-Archives  
-Others
-
----
+ Detects file type using extension  
+ Creates folders automatically  
+ Works on any folder  
+ Safe (moves files — does not delete)  
+ Beginner-friendly Python project
 
 ##  Requirements
 - Python 3.8 or higher
 
 Check version:
-
 python --version
 
----
+##  Installation
+Clone the repository and open the folder:
+
+git clone https://github.com/Sushma-Anumalla/File.Sorter.git
+cd File.Sorter
 
 ##  How to Run
+Run the script:
 
-1️ Download or clone this repository  
-2️ Open the folder in terminal  
-3️ Run:
+python FileSort.py
 
-python file_sorter.py
+(Optional) Run for a specific folder:
 
-(Optional)
-
-python file_sorter.py "C:\Users\YourName\Downloads"
-
----
+python FileSort.py "C:\Users\YourName\Downloads"
 
 ##  Example
-
-Before:
-
+Before sorting:
 photo.jpg  
 song.mp3  
 report.pdf  
+video.mp4  
 
-After:
-
+After sorting:
 Images/photo.jpg  
 Audio/song.mp3  
 Documents/report.pdf  
-
----
+Videos/video.mp4  
 
 ##  What I Learned
-- File handling in Python
-- OS / path modules
+- Working with files and folders in Python
+- Using os and shutil modules
 - Writing reusable functions
-- Organizing a project professionally
+- Structuring a simple project professionally
+- Creating documentation for GitHub
 
----
-
-##  Contributions
+##  Contributing
 Suggestions and improvements are welcome.
 
----
-
 ##  License
-Open-source — MIT License recommended.
+This project is open source. MIT License is recommended if others want to reuse it.
 
