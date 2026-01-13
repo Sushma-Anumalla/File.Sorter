@@ -50,7 +50,7 @@ def main():
 
     base = Path(folder_input).expanduser().resolve()
     if not base.exists() or not base.is_dir():
-        print("❌ Path not found or not a folder. Please check and try again.")
+        print(" Path not found or not a folder. Please check and try again.")
         return
 
     # Create category folders
@@ -74,7 +74,7 @@ def main():
         print(f"Moved: {item.name}  ➜  {dest_dir.name}/{moved_to.name}")
         moved_count += 1
 
-    print(f"\n✅ Done! Moved {moved_count} files. Skipped {skipped_count} items (folders/unsupported).")
+    print(f"\n Done! Moved {moved_count} files. Skipped {skipped_count} items (folders/unsupported).")
     print("Check your folder to see new subfolders like Images, Documents, Videos, etc.")
 
 if __name__ == "__main__":
